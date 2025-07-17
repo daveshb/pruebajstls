@@ -1,2 +1,1 @@
-import { get } from "../services";
 
