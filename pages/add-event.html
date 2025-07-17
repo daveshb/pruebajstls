@@ -1,0 +1,23 @@
+<section class="form-page">
+  <h2>Add event</h2>
+
+  <form id="addCourseForm" class="form-card">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="title" required />
+
+    <label for="description">Description</label>
+    <textarea id="description" name="description" required></textarea>
+
+    <label for="startDate">Fecha de inicio</label>
+    <input type="date" id="startDate" name="startDate" required />
+
+    <label for="capacity">Capacity</label>
+    <input type="number" id="capacity" name="duration" required />
+
+    <button type="submit">Creat event</button>
+  </form>
+
+  <div id="successCourseMessage" class="Message" style="display: none;">
+    ✅ Evento agregado correctamente
+  </div>
+</section>
